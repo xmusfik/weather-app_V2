@@ -40,7 +40,6 @@ footer h1 {
 
 .portrait {
     max-width: 250px;
-    border-radius: 30%;
     border-style: dotted;
 }
 
@@ -67,4 +66,18 @@ button:hover {
     color: rgb(39, 39, 39);
     background-color: rgb(255, 255, 255);
     font-size: 15px;
+}
+
+p a {
+    color: rgb(29, 212, 151);
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgb(212, 59, 59);
+    font-size: 18px;
+}
+
+hr {
+    margin-bottom: 10px;
 }
