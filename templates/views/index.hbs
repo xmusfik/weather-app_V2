@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Page /index</title>
+</head>
+
+<body>
+    <div class="main-c">
+        {{>header}}
+        <p> {{forecast}} </p>
+        <form>
+            <input placeholder="Type your address">
+            <button>Search</button>
+        </form>
+        <hr>
+        <p id="s1"></p>
+        <p id="s2"></p>
+    </div>
+{{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
